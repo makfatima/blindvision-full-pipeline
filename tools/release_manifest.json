@@ -1,0 +1,12 @@
+{
+  "weights": "",
+  "dataset_yaml": "",
+  "split_counts": "data/Dataset_Split.csv",
+  "train_script": "",
+  "eval_script": "",
+  "train_args": "",
+  "pi_code": "smart_goggles/",
+  "firmware": "smart_stick/",
+  "fusion_config": "smart_goggles/config.py",
+  "log_manifest": "TRACEABILITY.md"
+}

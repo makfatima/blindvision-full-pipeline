@@ -1,0 +1,10 @@
+Metric,Value,Basis
+ground_truth_instances,842,reconciled from confusion matrix
+correct_classifications,805,reconciled from diagonal
+inter_class_confusions,37,reconciled from off-diagonal
+unmatched_background_false_detections,31,supplied aggregate
+total_false_positive_assignments,68,inter-class + unmatched/background
+matched_class_recall,95.61%,derived
+pooled_precision_if_interclass_fp_counted,92.21%,derived; not raw-prediction recomputation
+pooled_f1_if_interclass_fp_counted,93.88%,derived; not raw-prediction recomputation
+false_positives_per_image,0.097,derived

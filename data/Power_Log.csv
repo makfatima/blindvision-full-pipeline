@@ -1,0 +1,6 @@
+Time,Voltage (V),Current (A),Power (W),Operating Mode
+00:00,5.06,2.38,12.04,Active detection
+00:30,5.04,2.41,12.15,Active detection
+01:00,5.05,2.39,12.07,Active detection
+01:30,5.03,2.42,12.17,Active detection
+02:00,5.04,2.4,12.1,Active detection

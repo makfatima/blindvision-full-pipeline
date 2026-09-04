@@ -1,0 +1,7 @@
+Artifact_Type,Metric,Value,Status
+Confusion-matrix aggregate,Ground-truth instances represented,842,included
+Confusion-matrix aggregate,Correct classifications (diagonal),805,included
+Confusion-matrix aggregate,Inter-class confusions (off-diagonal),37,included
+Confusion-matrix aggregate,Classes,10,included
+Confusion-matrix aggregate,Source file,data/Confusion_Matrix.csv,included
+Raw event data,Row-level prediction/event log,Not supplied,not included

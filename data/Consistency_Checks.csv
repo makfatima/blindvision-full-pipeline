@@ -1,0 +1,11 @@
+Check,Calculation,Status
+10-class count,10 class IDs: 0–9,PASS
+Power mean current,(2.38+2.41+2.39+2.42+2.40)/5 = 2.400 A,PASS
+Power mean,(12.04+12.15+12.07+12.17+12.10)/5 = 12.106 W,PASS
+Mean V × mean I,5.044 × 2.400 = 12.106 W,PASS
+Battery mean current,Mean of 11 values = 1.472 A,PASS
+Validation/test separation,0.98/0.96/0.99/0.85 vs 0.963/0.956/0.968/0.765,PASS
+Latency arithmetic,10 trial means average to 121.875 ms,PASS
+Detection metric reconciliation,805/842 = 95.61% matched-class recall; 37 inter-class confusions + 31 supplied unmatched FPs = 68; 68/700 = 0.097 FP/image,PASS
+Fusion tier reachability,Critical flag uses <=0.5 m; HIGH_RISK_FUSED threshold is 0.60; non-boundary case C=1, d_stick=0.55 m reaches approximately 0.604 with uncalibrated vision distance,PASS
+Remote haptic path,"Goggles record requested haptic patterns as a logging integration point; no active BLE haptic write is exercised; Stick-local haptics remain independent; no quantitative remote-haptic rate claimed",PASS

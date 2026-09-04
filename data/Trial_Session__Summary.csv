@@ -1,0 +1,16 @@
+Scope,Metric,Value,Status
+Full-system evaluation,Sessions,20,aggregate
+Full-system evaluation,Navigation trials,100,aggregate
+Full-system evaluation,Walking distance,~2 km,aggregate
+Detection evaluation,Detection attempts,200,aggregate
+Detection evaluation,Successful end-to-end detection-and-guidance attempts,192,aggregate
+Navigation,Corridor trials,30,aggregate
+Navigation,Outdoor walk trials,25,aggregate
+Navigation,Stair avoidance trials,20,aggregate
+Navigation,Water hazard trials,10,aggregate
+Navigation,Moving person trials,15,aggregate
+Navigation,Successful trials,96,aggregate
+Participant subset,Participants,7,participant-level summary
+Participant subset,Additional later-round trials,48,aggregate
+Participant subset,Participant navigation trials,100,participant-level summary
+Participant subset,Successful participant navigation trials,96,participant-level summary

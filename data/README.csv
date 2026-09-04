@@ -1,0 +1,7 @@
+BlindVision experimental data,Description
+Purpose,"Experimental measurements and derived result tables accompanying the BlindVision evaluation."
+Status,"Numerical values are retained as supplied; repository packaging does not alter reported measurements."
+Participant outcomes,"data/raw/participant_trials_breakdown.csv contains seven participant rows totaling 100 navigation trials and 96 successful trials."
+Trial outcomes,"data/raw/participant_trial_outcomes_100.csv contains 100 participant-subset trial records with 96 successful and four partial-success outcomes."
+Model results,"YOLO_Metrics.csv and Heldout_Test.csv contain the reported detection evaluation results; Confusion_Matrix.csv contains the ten-class confusion matrix (Table IV)."
+Availability,"Complete image/label data, trained weights, epoch-wise training logs, and raw confusion-matrix event data are not included in this release."

@@ -1,0 +1,6 @@
+sensor_id,true_distance_cm,mode,target_material,incidence_angle_deg,trial,measured_distance_cm,valid
+U1,100,simultaneous,flat_board,0,1,101.5,1
+U2,100,simultaneous,flat_board,0,1,102.1,1
+U3,100,simultaneous,flat_board,0,1,101.8,1
+U4,100,simultaneous,flat_board,0,1,102.4,1
+U5,100,simultaneous,flat_board,0,1,101.9,1

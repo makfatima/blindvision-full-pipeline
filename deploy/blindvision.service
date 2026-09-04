@@ -1,0 +1,28 @@
+# systemd unit for the Smart Goggles node.
+#
+# Install with deploy/install.sh. Deliberately NOT enabled by default:
+# a device that speaks navigation alerts should be started by someone who
+# knows it is uncalibrated until PROVENANCE.md's Group B values are set.
+
+[Unit]
+Description=BlindVision Smart Goggles
+After=network-online.target bluetooth.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=blindvision
+WorkingDirectory=/opt/blindvision/smart_goggles
+Environment=PYTHONPATH=/opt/blindvision/smart_goggles
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/blindvision/venv/bin/python main.py
+Restart=on-failure
+RestartSec=5
+
+# Journald keeps the record. Do not redirect to a file that rotates away the
+# evidence of a run you may later need to cite.
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+True \ Predicted,Person,Door,Chair,Backpack,Laptop,Bottle,Pole,Vehicle,Bicycle,Stairs
+Person,110,0,1,0,0,0,1,2,0,1
+Door,1,75,0,0,1,0,0,0,1,0
+Chair,0,0,88,1,0,0,0,0,0,3
+Backpack,0,1,0,61,0,1,0,0,1,1
+Laptop,0,0,0,0,53,1,0,0,0,1
+Bottle,0,0,0,0,0,66,1,0,0,3
+Pole,1,0,0,1,0,0,120,0,0,2
+Vehicle,1,1,0,0,0,0,0,84,1,1
+Bicycle,0,0,1,1,0,0,0,0,57,1
+Stairs,0,0,1,0,0,2,0,1,0,91

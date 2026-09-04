@@ -1,0 +1,16 @@
+path: ./synthetic_test_dataset
+train: images/train
+val: images/val
+
+nc: 10
+names:
+  0: person
+  1: door
+  2: chair
+  3: backpack
+  4: laptop
+  5: bottle
+  6: pole
+  7: vehicle
+  8: bicycle
+  9: stairs

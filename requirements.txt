@@ -1,0 +1,8 @@
+# Root convenience file. Each subsystem has its own requirements.txt with
+# pinned versions appropriate to its deployment target:
+#   smart_goggles/requirements.txt   -- Raspberry Pi vision node
+#   proof_of_concept/cloud_server/requirements.txt -- PoC cloud detection API
+#   backend/requirements.txt         -- caregiver backend
+#
+# For running the test suite only:
+pytest>=8.0.0

@@ -1,0 +1,10 @@
+Metric,Value,Unit,Status
+Packets sent,8000,packets, aggregate
+Packets received,7920,packets, aggregate
+Packets lost,80,packets, aggregate
+Packet success rate,99.0,percent, aggregate
+Average transmission delay,17.5,ms, aggregate
+Connection time,0.8,seconds, aggregate
+Maximum stable indoor distance,8,m, aggregate
+Raw sequence-number packet trace,Not supplied,NA,not recoverable from aggregate table
+Note,This file records reported BLE totals only and does not invent packet timestamps or sequence numbers,

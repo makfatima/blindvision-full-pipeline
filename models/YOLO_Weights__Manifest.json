@@ -1,0 +1,11 @@
+{
+  "artifact": "trained_yolov8_weights",
+  "status": "_manifest_only",
+  "reported_model": "YOLOv8n",
+  "deployment": "Raspberry Pi 4, CPU-only",
+  "reported_test_images": 700,
+  "reported_annotated_test_objects": 842,
+  "weights_file": null,
+  "sha256": null,
+  "note": "The binary trained-weight file is not included in this repository release. This manifest records the model artifact referenced by the project without claiming that the binary is included."
+}

@@ -1,0 +1,47 @@
+{
+  "Ultrasonic_Calibration_Raw.csv": {
+    "bytes": 1274,
+    "rows": 80,
+    "sha256": "2c98ab68872857bfa37dca36aea6af176793ce06cc7c224a1be695892dd3979b"
+  },
+  "Ultrasonic_Calibration_With_Correction_Raw.csv": {
+    "bytes": 9052,
+    "rows": 80,
+    "sha256": "b276c4410f45d6bc746af356715a425cfe3de989a2cad38ea3dbf8fb71a95e2d"
+  },
+  "Ultrasonic_Angle_Sweep_Raw.csv": {
+    "bytes": 1186,
+    "rows": 45,
+    "sha256": "347a908db4e235c03c4d41886acc26f2669f54ed43e795b6bf9858cbf6aaceed"
+  },
+  "Ultrasonic_Material_Raw.csv": {
+    "bytes": 669,
+    "rows": 20,
+    "sha256": "6c3449ce7405ffb0c555a8e35528bca81bed63eeb12bee6bf88b6274fef1cca5"
+  },
+  "Ultrasonic_Crosstalk_Raw.csv": {
+    "bytes": 322,
+    "rows": 5,
+    "sha256": "b24536c6d59935f01ec0bad59f810209b7967abaf3e4480d8a0266ca3c91756e"
+  },
+  "Fusion_Weight_Sensitivity_10cases.csv": {
+    "bytes": 182,
+    "rows": 10,
+    "sha256": "c16e001415c73c59efa606cf7a8de113782b6d3464c73de92a48639cd84ae9f6"
+  },
+  "Fusion_Weight_Sensitivity_Summary.csv": {
+    "bytes": 417,
+    "rows": 9,
+    "sha256": "2e2c7e94d2ab78532746181c505c8a98183d63ebfb3efde02bdfe034c1d37025"
+  },
+  "Paired_Subsystem_Ablation_Raw.csv": {
+    "bytes": 504,
+    "rows": 16,
+    "sha256": "b4389582c478c6cc39739bcc9470c98defb784a256a3b87a814ce8575b1b4a37"
+  },
+  "Smart_Stick_Continuous_Discharge_Raw.csv": {
+    "bytes": 455,
+    "rows": 9,
+    "sha256": "b61421c4d3ba61ac287a78771be13518f79c3274ba2934bfafc81b2d5fddc459"
+  }
+}

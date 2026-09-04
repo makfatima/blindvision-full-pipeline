@@ -1,0 +1,630 @@
+{
+  ".github/workflows/ci.yml": {
+    "sha256": "512cc516212eb5d57bf00acb256e115ebb72cda04290f2ab678a578c4f391b3e",
+    "bytes": 1492
+  },
+  ".gitignore": {
+    "sha256": "154e3a7c31d98439b7a2923f520aff72ff356925ba239a5b6c2796b32aeea5e3",
+    "bytes": 100
+  },
+  "ARTIFACT_STATUS.md": {
+    "sha256": "4b0db5c0bb49dd02e741b08bf70427863843b7e928b13b903bc326aa86b6fbf2",
+    "bytes": 1207
+  },
+  "CHANGES.md": {
+    "sha256": "820bb55c3657cebb6f7abe8e8c7639c0f484452e1e03f4f951243c7b51980fb5",
+    "bytes": 2394
+  },
+  "CITATION.cff": {
+    "sha256": "ad5f487bcb12e7f880cff9356ffc5683b316ace20e7029b6b95c780bbff81141",
+    "bytes": 983
+  },
+  "CLASS_RUN_STATUS.md": {
+    "sha256": "7059b5e6d3b982f79906978133a4f65a947aeb9959b3c8f758693969d6f774cf",
+    "bytes": 539
+  },
+  "IEEE_COVER_LETTER.md": {
+    "sha256": "b91df49d6ca43d77a1acb0c8882df6d35526d9de4c13e2b56d24de53b432d466",
+    "bytes": 2049
+  },
+  "IEEE_COVER_LETTER_DRAFT.md": {
+    "sha256": "364d375948a4dadc800000167b36e25e4ab6eba362f9d020e413c3cace684ab6",
+    "bytes": 1787
+  },
+  "LICENSE": {
+    "sha256": "187492eeaf95368b57c75184ed488c1a14fb7651a1c10ae259ed9eed4d217e15",
+    "bytes": 1340
+  },
+  "PROVENANCE.md": {
+    "sha256": "0f077868fce2f37284368c08579caece6573209588dd3cd5cbde750ec2961a0f",
+    "bytes": 1701
+  },
+  "README.md": {
+    "sha256": "95a78fe3b98c585099f4216bb18f6d264ae55dee33a57a095825147525864e1a",
+    "bytes": 6978
+  },
+  "SUBMISSION_READINESS.md": {
+    "sha256": "c9ae500af4998f9b7bc69af1900838a5e4aeecfefea26e334d7e706874e45f0a",
+    "bytes": 2662
+  },
+  "TEST_RESULTS_FINAL.txt": {
+    "sha256": "4b79a547d1a71d8beb3daaa11198df795d862ff84e0361002e6a2024a6678ba3",
+    "bytes": 99
+  },
+  "TRACEABILITY.md": {
+    "sha256": "bd214a48429037cf2d5491c60b4d1b8d7410a7e9adb55ddc5beb0f6b6a9e94a2",
+    "bytes": 4399
+  },
+  "backend/__pycache__/app.cpython-313.pyc": {
+    "sha256": "988957d6c1774704d9ae97b3829d79ee48b40023fad57aab9a7c27ee26019367",
+    "bytes": 4918
+  },
+  "backend/__pycache__/models.cpython-313.pyc": {
+    "sha256": "12147dee0c2b465350ed0f315670a2ae93ec7f55b8cfb8c59e2f4f9ec350220a",
+    "bytes": 1713
+  },
+  "backend/app.py": {
+    "sha256": "d86ca2550fa3d7b284be6c633a9a7463bff4bb065a94f3aaa9f03de62e7b7ab8",
+    "bytes": 3241
+  },
+  "backend/models.py": {
+    "sha256": "48775c091ef5e21420039663d1f6cc8f2e10c2514a98370b708d5831b0b6fe2b",
+    "bytes": 673
+  },
+  "backend/requirements.txt": {
+    "sha256": "f99b9ef89c4df7e45769c36dde0a01f73910abef0abb35a9b59e793c20ab2d00",
+    "bytes": 59
+  },
+  "checkpng/p1.png": {
+    "sha256": "edeaa5bb72b38518cf247f63acfa842ce33b88814a82a68bacb49bc365f14373",
+    "bytes": 314219
+  },
+  "checkpng/p7.png": {
+    "sha256": "556fed62f256ff5df721065045edec145f099d108bf47d96caddebf00568cc24",
+    "bytes": 430543
+  },
+  "data/ADDED_RAW_RECORDS_SHA256.json": {
+    "sha256": "05e2ce7f24902d0ad6152ecfd5462498250a3572fb1b69156e9e5c70e3df122d",
+    "bytes": 1463
+  },
+  "data/Arbitration_Ladder_Corrected.csv": {
+    "sha256": "2ff3166188bdbb8742f03c9cb0847e1f5b24e57cbfd61c09511a7c935e463c4c",
+    "bytes": 688
+  },
+  "data/Arbitration_Ladder_Supplied.csv": {
+    "sha256": "6acbd8bb04ac0165990d2384a21044e986bf1c9f9e0a33fd4a64aa76c7a4dcad",
+    "bytes": 641
+  },
+  "data/BLE_Trace__Summary.csv": {
+    "sha256": "0ea640a778d4f1420978ef70eec13e6272fb4b4910878e450d57ef85dce360a6",
+    "bytes": 506
+  },
+  "data/BlindVision__dataset (1).xlsx": {
+    "sha256": "027ac29a4b0a3869b5ec1962c033678d85087e7f8748bd86b8a3d9ec52693d5d",
+    "bytes": 11723
+  },
+  "data/Caregiver_API_Runtime_Summary.csv": {
+    "sha256": "48a3588719be6625ec7e7e877bdf7b4fc66f32afdd94eafe372af4cae85071ca",
+    "bytes": 332
+  },
+  "data/Class_Definition.csv": {
+    "sha256": "5a2e4299857544c74f5a133880084ee8e8b0955e65e4843add77ae27f1f4987f",
+    "bytes": 98
+  },
+  "data/Classwise_Evaluation.csv": {
+    "sha256": "c375724ad9d437bc6293fc28ca1a24de2d1a63329bc8b10ea278bbb91ed282ff",
+    "bytes": 467
+  },
+  "data/Confusion_Event_Summary_.csv": {
+    "sha256": "80faeb6d4cf306a3db38a864a77d921ce3b5f71ac1ae8ff2816537eea1480c87",
+    "bytes": 461
+  },
+  "data/Confusion_Matrix.csv": {
+    "sha256": "16cd15c4670ce218c6ecdb3aea97b11a6200135d856adcf26ff297c06ce8fad1",
+    "bytes": 378
+  },
+  "data/Consistency_Checks.csv": {
+    "sha256": "c49cc11ed51c313c450e25dccc87497a5e2b6d33dfbd462c7dcde8dfffd11f37",
+    "bytes": 1007
+  },
+  "data/Dataset_Manifest_.csv": {
+    "sha256": "49161987b03f7d91466c2254b36bbee77fbe5bea2cda280b140a8ec75550a824",
+    "bytes": 462
+  },
+  "data/Dataset_Split.csv": {
+    "sha256": "cbcd5932c49f056e3a3569d7ef1ededbd489144704dedfdc17fa2ae57af3794b",
+    "bytes": 71
+  },
+  "data/Detection_Metrics_Reconciled.csv": {
+    "sha256": "6466d0c59cc03de89380369f959ca5eb47b19447e0cb403e5e167275be17dbd5",
+    "bytes": 579
+  },
+  "data/Heldout_Test.csv": {
+    "sha256": "0113306968023deb1d5137beccce65828d62e4b786ad204f8bf66f3b6ff56ba2",
+    "bytes": 107
+  },
+  "data/INDEX.csv": {
+    "sha256": "214c1c53044511bbfae8de03fa37c3b31c58a141943c5a4338aef70297a260a9",
+    "bytes": 2362
+  },
+  "data/Power_Log.csv": {
+    "sha256": "cfb69594ff9a3645da085984330d302d800a48a854c3860e4db1ab885221e26e",
+    "bytes": 247
+  },
+  "data/RAW_DATA_RECONCILIATION.md": {
+    "sha256": "e0387d4ce5a590c03419110f241b1c4a2cbce4adff1a7405cf80033dab8430f8",
+    "bytes": 1290
+  },
+  "data/RAW_EXPERIMENTAL_RECORDS_ADDED.md": {
+    "sha256": "dd8ab9e2bee63071d2d822fc4c584b223361c31a6d28d9263565f39c7fede8a8",
+    "bytes": 762
+  },
+  "data/README.csv": {
+    "sha256": "46e2a08d5d1fba7277df121a5106d8a86dd749b6d51a9d10fd37b20a35ebef54",
+    "bytes": 904
+  },
+  "data/SUPPLIED_DATA_STATUS.md": {
+    "sha256": "395817c0015f4a3bceb8229beb4b0fbfe7c07c504a1e68a0cdc974ee36527b7d",
+    "bytes": 1176
+  },
+  "data/Training_Epoch_Log_.csv": {
+    "sha256": "0e4fe3078dd2489457b277796ded165eebc8bb103bd433ff87064095019d8574",
+    "bytes": 334
+  },
+  "data/Trial_Session__Summary.csv": {
+    "sha256": "1a6cbe5387f093771e46d4a2db000b18391fa3d6473f270a511614a4e502dd20",
+    "bytes": 877
+  },
+  "data/Ultrasonic_Angle_Sweep_Summary.csv": {
+    "sha256": "0df36da0b3fdde9e2df890c2fa47c1e9eb20d5fe0aa094e555eb6246a51aadea",
+    "bytes": 469
+  },
+  "data/Ultrasonic_Crosstalk_Summary_Recomputed.csv": {
+    "sha256": "ce29d950d9a90c99cc801be6116335d5a05ead2e20c9c9268c209cc422b17481",
+    "bytes": 282
+  },
+  "data/Ultrasonic_Material_Summary.csv": {
+    "sha256": "f72453b5e8a37dff64112113c3e69e85ee41278dad68a2c54d25503096c040ff",
+    "bytes": 191
+  },
+  "data/Ultrasonic_Sensor_Calibration_Recomputed.csv": {
+    "sha256": "0d7163805a104e69dff0cae21786b90409c520281fb3fee5c5b7fc94ce214a98",
+    "bytes": 829
+  },
+  "data/YOLO_Metrics.csv": {
+    "sha256": "0e4fe3078dd2489457b277796ded165eebc8bb103bd433ff87064095019d8574",
+    "bytes": 334
+  },
+  "data/artifacts_readme.md": {
+    "sha256": "84083f77a74776a977eb1a2ffdd3d4db97cb9de020d08dea2d92e11da79b266f",
+    "bytes": 754
+  },
+  "data/raw/Fusion_Weight_Sensitivity_10cases.csv": {
+    "sha256": "c16e001415c73c59efa606cf7a8de113782b6d3464c73de92a48639cd84ae9f6",
+    "bytes": 182
+  },
+  "data/raw/Fusion_Weight_Sensitivity_Summary.csv": {
+    "sha256": "2e2c7e94d2ab78532746181c505c8a98183d63ebfb3efde02bdfe034c1d37025",
+    "bytes": 417
+  },
+  "data/raw/Paired_Subsystem_Ablation_Raw.csv": {
+    "sha256": "b4389582c478c6cc39739bcc9470c98defb784a256a3b87a814ce8575b1b4a37",
+    "bytes": 504
+  },
+  "data/raw/README.md": {
+    "sha256": "e7a2e77f313212379825d3038d239daaca5b87f72c94a28318602878fd77c380",
+    "bytes": 3205
+  },
+  "data/raw/Smart_Stick_Continuous_Discharge_Raw.csv": {
+    "sha256": "b61421c4d3ba61ac287a78771be13518f79c3274ba2934bfafc81b2d5fddc459",
+    "bytes": 455
+  },
+  "data/raw/Ultrasonic_Angle_Sweep_Raw.csv": {
+    "sha256": "347a908db4e235c03c4d41886acc26f2669f54ed43e795b6bf9858cbf6aaceed",
+    "bytes": 1186
+  },
+  "data/raw/Ultrasonic_Calibration_Raw.csv": {
+    "sha256": "2c98ab68872857bfa37dca36aea6af176793ce06cc7c224a1be695892dd3979b",
+    "bytes": 1274
+  },
+  "data/raw/Ultrasonic_Calibration_With_Correction_Raw.csv": {
+    "sha256": "b276c4410f45d6bc746af356715a425cfe3de989a2cad38ea3dbf8fb71a95e2d",
+    "bytes": 9052
+  },
+  "data/raw/Ultrasonic_Crosstalk_Raw.csv": {
+    "sha256": "b24536c6d59935f01ec0bad59f810209b7967abaf3e4480d8a0266ca3c91756e",
+    "bytes": 322
+  },
+  "data/raw/Ultrasonic_Material_Range_Raw.csv": {
+    "sha256": "101fd8c316733800a0bc93b76e08995e44c347bcff189d3e11b6778265bc75a6",
+    "bytes": 1420
+  },
+  "data/raw/Ultrasonic_Material_Raw.csv": {
+    "sha256": "6c3449ce7405ffb0c555a8e35528bca81bed63eeb12bee6bf88b6274fef1cca5",
+    "bytes": 669
+  },
+  "data/raw/Ultrasonic_Temperature_Humidity_Compensation_Raw.csv": {
+    "sha256": "5dd8d9a8f68e4c9ad0ae587b99f19beda2c0ddb9f73ddbaefae97114529ca8f7",
+    "bytes": 1083
+  },
+  "data/raw/participant_trial_outcomes_100.csv": {
+    "sha256": "e77ae4fdcc8b5db587305205f54cd8a50e7f9a01ca87ca49c36122fe6fcd82ce",
+    "bytes": 1229
+  },
+  "data/raw/participant_trials_breakdown.csv": {
+    "sha256": "e1d49090633163d04b1ff6cb0c1fdf62cc1b0487d1238258b092ce28725137c1",
+    "bytes": 128
+  },
+  "deploy/blindvision.service": {
+    "sha256": "4ee7f78ea7944853b81b88aaf62e316c4ce91e05f6877d3f304d5741c4b42be3",
+    "bytes": 847
+  },
+  "deploy/install.sh": {
+    "sha256": "b54aa4014218ec7a916cd2cc1f56a37116cf0570f6d6eac88bf00fd98306b7b6",
+    "bytes": 1685
+  },
+  "docs/ARCHITECTURE.md": {
+    "sha256": "c102c8eeefe87f1b53e846b84d1cdf8df161636320266eeb0aa512ddce6d1492",
+    "bytes": 3351
+  },
+  "docs/ARTIFACT_RECOVERY.md": {
+    "sha256": "5635104cdbf526d27fd7e7d201a2e1d0f30a8bcc92132e7194bef26f1dcc8c28",
+    "bytes": 1480
+  },
+  "docs/BlindVision_FINAL_MANUSCRIPT.docx": {
+    "sha256": "e8424444720aa73e52e88dbaee9891f8281c47f4e1e850fbf72a929714533051",
+    "bytes": 1958972
+  },
+  "docs/BlindVision_FINAL_MANUSCRIPT.pdf": {
+    "sha256": "fd6de3e9dc9ee07d7af0d077dc9cbf4412a3d27602040a0e09f17a55b81548c4",
+    "bytes": 267905
+  },
+  "docs/BlindVision_SUPPLEMENTARY_MATERIAL.docx": {
+    "sha256": "1ff51451f17357488d3ae52c770d02a4c00f53334ae3e1ae31a6d27b1c3327e7",
+    "bytes": 49226
+  },
+  "docs/BlindVision_SUPPLEMENTARY_MATERIAL.pdf": {
+    "sha256": "4133274a8f4e7e0829b49911f9a09eb88ad98579b43bbc8f6565677ea9707162",
+    "bytes": 874550
+  },
+  "docs/HARDWARE.md": {
+    "sha256": "881140f955751f3b6f409ac232f974a7968dc0696590bd06779f81a4c2c25712",
+    "bytes": 2603
+  },
+  "docs/LATENCY_EXPERIMENT.md": {
+    "sha256": "fd6f9330372faceb3402bd66ca877ca95aabf8f506f62a954d514ea4fd8a12c5",
+    "bytes": 4242
+  },
+  "models/ORIGINAL_WEIGHTS_STATUS.md": {
+    "sha256": "22b9bebaa94ebee9b7e00773a345845ecaf3f42246f704361dc8154ac4c7273b",
+    "bytes": 219
+  },
+  "models/YOLO_Weights__Manifest.json": {
+    "sha256": "8a055f2215e144f1e29673be6b01d8fe1a4ff63b971d44f4feecf4eff150b546",
+    "bytes": 463
+  },
+  "proof_of_concept/POC_MODEL_STATUS.md": {
+    "sha256": "c7d20be442ca5f5cbcfa8fef00483cd0ffd36b8701d27d61cde854c239db698d",
+    "bytes": 434
+  },
+  "proof_of_concept/cloud_server/Dockerfile": {
+    "sha256": "6ed44add2eef359d41f83f025ca63e2e77e82180de8697a02c10139f0a673067",
+    "bytes": 336
+  },
+  "proof_of_concept/cloud_server/app.py": {
+    "sha256": "d163102234141bcb9bbab18d2b4f7b3513aaa2cc2f8fe26ad498475a2e0d0e48",
+    "bytes": 4590
+  },
+  "proof_of_concept/cloud_server/requirements.txt": {
+    "sha256": "bcc55f3b5cf549c30713ec122b0129ba3220e687167fa76197fcfce0167541c0",
+    "bytes": 118
+  },
+  "proof_of_concept/esp32cam_firmware/esp32cam_firmware.ino": {
+    "sha256": "4580e7869c66595b96a649260e4591215fa075c58578365bcebe659bafa6d809",
+    "bytes": 5089
+  },
+  "release/RELEASE_MANIFEST.json": {
+    "sha256": "fe2ffb9603bb924e96d000966ff6d4caefcfcede941e3edb36c6f2ca8033bddc",
+    "bytes": 1523
+  },
+  "release/RELEASE_TAG.txt": {
+    "sha256": "9f720eede4414870ec70d270fab50e2a2f888471a45ed0f3cfabf60cdf614530",
+    "bytes": 27
+  },
+  "release/SHA256SUMS.json": {
+    "sha256": "2672bacf8bbf8b4bef260bd398ca81b7f1035a2993438f70cec156c2ef03eaec",
+    "bytes": 23031
+  },
+  "requirements.txt": {
+    "sha256": "ff652d4c6077af038004b5649d55ec7b963d94c240e742e6b6ebb6ccbcfe44d1",
+    "bytes": 382
+  },
+  "smart_goggles/__pycache__/config.cpython-313.pyc": {
+    "sha256": "6fe19283f3aab97e19d2b60f3091e02a4ce6ebd5a6503d133802be65fc60e529",
+    "bytes": 4798
+  },
+  "smart_goggles/__pycache__/main.cpython-313.pyc": {
+    "sha256": "feaf5427913d7ce4f68c1f3d7b137799fdd1f45532b02ed30fcfc851b163f6b5",
+    "bytes": 16977
+  },
+  "smart_goggles/audio/__init__.py": {
+    "sha256": "3c94ced37459e8fefb9c2f5b0a776b679e36936d2c624e96b39d74a206fc8848",
+    "bytes": 71
+  },
+  "smart_goggles/audio/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "c3ac7bc62f0031613e6431b2ae192aea094df482ab4b3af5fb2cb7e2280a84b5",
+    "bytes": 209
+  },
+  "smart_goggles/audio/__pycache__/tts_engine.cpython-313.pyc": {
+    "sha256": "a0a38af455cac654c0ffdf1c45b312c3c7c0f9ac530eed4587ae39fbc471c705",
+    "bytes": 5434
+  },
+  "smart_goggles/audio/tts_engine.py": {
+    "sha256": "7efe2d09dc5e58608cc33927321de9eb6387d4338f081da6ed4184d0d097b5c4",
+    "bytes": 3600
+  },
+  "smart_goggles/ble/__init__.py": {
+    "sha256": "ea893e2ffe62a39b83b60b029e35f7abf3285c881b08d01c9c21201e31b316bd",
+    "bytes": 87
+  },
+  "smart_goggles/ble/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "04f43241609d4301f84ec27b53ab6e322aa85f6c8ca1f9cadb445db47b2d68b7",
+    "bytes": 232
+  },
+  "smart_goggles/ble/__pycache__/stick_link.cpython-313.pyc": {
+    "sha256": "371a390166975a7efcd545568e3f8bbfa52a9504ab38182e56ad02b9e12d50c9",
+    "bytes": 15592
+  },
+  "smart_goggles/ble/stick_link.py": {
+    "sha256": "6719ae56651050d52e906f1ca70de3baee006c40716ef912b95833a851dcc83e",
+    "bytes": 11540
+  },
+  "smart_goggles/camera/__init__.py": {
+    "sha256": "55e45947cef93b052e25be5e59b4f08dea03b52e40d60d8855a1add590420c83",
+    "bytes": 122
+  },
+  "smart_goggles/camera/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "6b7a266345ad2222dae11120c2357a64b98f6087b9aa8e9003b62d9c7b8ee613",
+    "bytes": 267
+  },
+  "smart_goggles/camera/__pycache__/camera_manager.cpython-313.pyc": {
+    "sha256": "4ba0b6f709959a285bb88e5d413e4b9c8f8aa49f72e817577c69b7def713e598",
+    "bytes": 9921
+  },
+  "smart_goggles/camera/__pycache__/detector.cpython-313.pyc": {
+    "sha256": "34c04d8f4cfe126b65049fc76ad99b8131ed90da6ecc0cd181557cdbf9ce98a8",
+    "bytes": 5623
+  },
+  "smart_goggles/camera/camera_manager.py": {
+    "sha256": "0e775025dcbad317fc7badced828eec13c2d42429f807f5470ecee036a898097",
+    "bytes": 6604
+  },
+  "smart_goggles/camera/detector.py": {
+    "sha256": "94e0108cab764ed3bf0ca687bc599c3f5f2b682b5355818fa3d6b169e42daed4",
+    "bytes": 4853
+  },
+  "smart_goggles/caregiver/__init__.py": {
+    "sha256": "d253d4f3c622e4ef953df419f2647e8856182bb21d853eea2db394c936d9c43f",
+    "bytes": 220
+  },
+  "smart_goggles/caregiver/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "61ebbd334300c638fc037d179997c9ad514d5655bd711c02e91967494a0c0f0d",
+    "bytes": 371
+  },
+  "smart_goggles/caregiver/__pycache__/cellular_module.cpython-313.pyc": {
+    "sha256": "ff385ce7560fcb3b4d00d22c4d0319a289b037aae8c2caf77127cecb27025662",
+    "bytes": 4393
+  },
+  "smart_goggles/caregiver/__pycache__/event_logger.cpython-313.pyc": {
+    "sha256": "fac16786ce8fbe92391e3c81c1cf0818879ebc12a081147595228d340e94cc8a",
+    "bytes": 3885
+  },
+  "smart_goggles/caregiver/__pycache__/gps_module.cpython-313.pyc": {
+    "sha256": "f93edd2061c63701531c5f5875669d48852e8a0e158c7c7a2c2e3b971e5a5ca8",
+    "bytes": 5318
+  },
+  "smart_goggles/caregiver/cellular_module.py": {
+    "sha256": "1fcc154a3d92fdabc4c77d19080b0e8592e38d12bc32c0ca09579b8b3dc7a3a8",
+    "bytes": 2626
+  },
+  "smart_goggles/caregiver/event_logger.py": {
+    "sha256": "c85870d947c026094c4db34be616bb2becf61d59c5f35befdccea3560bd3dcaf",
+    "bytes": 2382
+  },
+  "smart_goggles/caregiver/gps_module.py": {
+    "sha256": "d3b745f6d4e6d9a524c82c0d97c6202cb2230eb673053ed5af7d4f8240417199",
+    "bytes": 2959
+  },
+  "smart_goggles/config.py": {
+    "sha256": "90ff63feb08f1afe1b6accd564507f31a97e86b89bccc98c870944c602a091a4",
+    "bytes": 8503
+  },
+  "smart_goggles/fusion/__init__.py": {
+    "sha256": "1a38b9e2301e330ffc415954c0e111ab167f37f4a71a615f0597966186f9690d",
+    "bytes": 379
+  },
+  "smart_goggles/fusion/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "e4df947f15cfc5b43fb3edea37a3bcb7472387a78cf5cc25e812d276ec1effce",
+    "bytes": 463
+  },
+  "smart_goggles/fusion/__pycache__/arbitration.cpython-313.pyc": {
+    "sha256": "1eab571cab791db11098064a87cdcbf776778a4687e7331811cdd116a98d49a5",
+    "bytes": 8343
+  },
+  "smart_goggles/fusion/__pycache__/risk_model.cpython-313.pyc": {
+    "sha256": "879a00d8dd6590b6814a16086d7102c8d53f3ace75460bd071eed9ead2b5089f",
+    "bytes": 8452
+  },
+  "smart_goggles/fusion/arbitration.py": {
+    "sha256": "057447472e58516a92ad33f3a481d6c8f575a67ce8871f04d6673d4c6722243d",
+    "bytes": 7890
+  },
+  "smart_goggles/fusion/risk_model.py": {
+    "sha256": "34aec253171653af4db9a920f309fd5d515c0e50e6d4bb45f5e2dba118289693",
+    "bytes": 8278
+  },
+  "smart_goggles/instrumentation/__init__.py": {
+    "sha256": "91b41bc2a0b5f12ff5c1ad6acf309e85ca51422d332e55c507bdb487d1932698",
+    "bytes": 253
+  },
+  "smart_goggles/instrumentation/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "be104afbb16cbd762c1e5fe23c9f7c182b565dac2cd32036f1a79899fa203a24",
+    "bytes": 323
+  },
+  "smart_goggles/instrumentation/__pycache__/bench_latency.cpython-313.pyc": {
+    "sha256": "0c8ffb3255ceb3716a78140105452b6b98fd1da7c508bed802c35bc3e2333136",
+    "bytes": 11489
+  },
+  "smart_goggles/instrumentation/__pycache__/summarize.cpython-313.pyc": {
+    "sha256": "d977f9b06a6b355accc8a1719461791e582aa6343495495bf0d5dfcd4aca8493",
+    "bytes": 11188
+  },
+  "smart_goggles/instrumentation/__pycache__/timing.cpython-313.pyc": {
+    "sha256": "c716fa5caf12cef8b2e9844062e03010525a92abbc2e97c72d515b7bd1d31740",
+    "bytes": 13756
+  },
+  "smart_goggles/instrumentation/bench_latency.py": {
+    "sha256": "0ad01ea2bc25c8e1d574a8c80f008fe6c503187bb44ad735424530a6ae2c3ddc",
+    "bytes": 6823
+  },
+  "smart_goggles/instrumentation/summarize.py": {
+    "sha256": "87518d5e7277277c8affe441e01883325b7ff348d40ba444de54891a20021802",
+    "bytes": 7454
+  },
+  "smart_goggles/instrumentation/timing.py": {
+    "sha256": "0c80d92426da867bac4fa5f93edd909290ba1d128e55125469863aa55d2cbf74",
+    "bytes": 8951
+  },
+  "smart_goggles/main.py": {
+    "sha256": "226224f891a7818323889485d10b57d71204d61686caefc56a146c27f96a7c62",
+    "bytes": 13581
+  },
+  "smart_goggles/modes/__init__.py": {
+    "sha256": "9840e4641945420cb3fee76669caa8e7bd4ac0b98ba476c93cb2fffe9e23bfda",
+    "bytes": 91
+  },
+  "smart_goggles/modes/__pycache__/__init__.cpython-313.pyc": {
+    "sha256": "74631ee459ed7620070680ae7785faf1ad4dd74b81dfe0872fbec7d6ae06dded",
+    "bytes": 237
+  },
+  "smart_goggles/modes/__pycache__/mode_manager.cpython-313.pyc": {
+    "sha256": "aef9c5275f100196dfb6798159ab9515fe2a64a2edb22d7e016040f3476e625c",
+    "bytes": 4341
+  },
+  "smart_goggles/modes/mode_manager.py": {
+    "sha256": "1326d16eac6930d3dfa2499cb7095633e45611cd058b960736259752e90fce27",
+    "bytes": 2801
+  },
+  "smart_goggles/requirements.txt": {
+    "sha256": "ac94fdf2b5a3808a35d6dd523f87100f5fdf2d6dd43da84977b81bab7034cf22",
+    "bytes": 129
+  },
+  "smart_stick/ble_peripheral.cpp": {
+    "sha256": "0fbeae6a37817c3d331fa840dd6f992f99bf2cad4395bb9d778736fcda4e5f95",
+    "bytes": 4162
+  },
+  "smart_stick/ble_peripheral.h": {
+    "sha256": "1a80726663d1389c44e48f7e331d33d2e0ab6165579e759b8062603725ce2cda",
+    "bytes": 817
+  },
+  "smart_stick/config.h": {
+    "sha256": "e663b4eccf899104b43ef27741b9e2289accc6ec8dbcc50e1494ee8529415aa6",
+    "bytes": 6693
+  },
+  "smart_stick/outputs.cpp": {
+    "sha256": "34032af2fdd1678e595979b42650d8080f0930f54f11c2c13234877437a929ae",
+    "bytes": 3015
+  },
+  "smart_stick/outputs.h": {
+    "sha256": "c577862d2b89ba741d68b49e31d92f86ae882626eabd6ec6c64051b350cea172",
+    "bytes": 1151
+  },
+  "smart_stick/platformio.ini": {
+    "sha256": "27133ba29ced8d95ef380e7ea050bd436f8996aebd1f6062ece23b2280ad3e90",
+    "bytes": 994
+  },
+  "smart_stick/sensors.cpp": {
+    "sha256": "e2780f52c5859857c96078d7623a221c49df58ed4caf649fb0e51517dd18a234",
+    "bytes": 6004
+  },
+  "smart_stick/sensors.h": {
+    "sha256": "0f5a8b99171d47d89191520047e03382a0f9a437e02011f4ebc1dad027d99bb3",
+    "bytes": 1951
+  },
+  "smart_stick/smart_stick.ino": {
+    "sha256": "46e38d389656a905a8e819cb1ad1bd32a66364d373ffd86a724a32b6d53fccc3",
+    "bytes": 3898
+  },
+  "tests/__pycache__/conftest.cpython-313-pytest-9.0.2.pyc": {
+    "sha256": "019c30c3415ba2dce8bbc50503a947df5b08518f1e9babfabd0bce3f286faa1b",
+    "bytes": 803
+  },
+  "tests/__pycache__/test_arbitration.cpython-313-pytest-9.0.2.pyc": {
+    "sha256": "d771d880f0f2d7192bc4f268076ea2ae5da18630a52d094601b5cf1a2fd8ab98",
+    "bytes": 13255
+  },
+  "tests/__pycache__/test_fusion.cpython-313-pytest-9.0.2.pyc": {
+    "sha256": "1755f94d621c6f6cf73ac1881396161c2cf053e2064699ff93b137725a529755",
+    "bytes": 12792
+  },
+  "tests/__pycache__/test_instrumentation.cpython-313-pytest-9.0.2.pyc": {
+    "sha256": "ef027d38bbc98a2b8fa5a5e9501eba389ac04be4fa3e1458a4447f7fea1ceb5c",
+    "bytes": 26367
+  },
+  "tests/__pycache__/test_regressions.cpython-313-pytest-9.0.2.pyc": {
+    "sha256": "c1ff3a78e373888ac957d32d1b9fb0634d86068ec99576fb88db848d718e2946",
+    "bytes": 35719
+  },
+  "tests/conftest.py": {
+    "sha256": "be355179358880d7c712f4d53014674f1b2494acf85db1c4d7a77f2aa828f923",
+    "bytes": 299
+  },
+  "tests/test_arbitration.py": {
+    "sha256": "c4bf19135ac93e217e01870e6cfe3e79e39a5ad28882a961fd797cda7e3362a9",
+    "bytes": 4122
+  },
+  "tests/test_fusion.py": {
+    "sha256": "6fb476332ceed81b6392a7b952b1b5c0132a9a3a9c14cac0a5d08a06164f3182",
+    "bytes": 2252
+  },
+  "tests/test_instrumentation.py": {
+    "sha256": "29985d3bc2282ed622dbe05eafc3ad63150817f6e54d53bad97a40a18e2ef2df",
+    "bytes": 4830
+  },
+  "tests/test_regressions.py": {
+    "sha256": "5cfda3f2e4bafd02d57d105ecce5e1d2ad882e79a9d3945a29de75cb1fad62d2",
+    "bytes": 8792
+  },
+  "tools/gen_pinmap.py": {
+    "sha256": "b84b0a52982ccff9817f03d34e6bb2a7be2576c9f511f93f652ac50b8884cbdb",
+    "bytes": 1986
+  },
+  "tools/make_release.py": {
+    "sha256": "a2ec7f32042c083efb312f1a1b26b46ee6ed680221acad25506a0213745fc3fe",
+    "bytes": 7598
+  },
+  "tools/metrics.py": {
+    "sha256": "391b9779a5577e0224551415a6a036e5fff6b2be5261f73226b5058801161c04",
+    "bytes": 8815
+  },
+  "tools/pin_environment.py": {
+    "sha256": "ef5060aad380bc6c21b71479437b8113c70067c0933ba62d8e57e52a70a3e283",
+    "bytes": 5595
+  },
+  "tools/reconcile_detection_metrics.py": {
+    "sha256": "a8c984f847878672c9f6cbaee4217fa0ba638ecffaf93bbec7fa8134d03e4158",
+    "bytes": 2211
+  },
+  "tools/release_manifest.json": {
+    "sha256": "b5ea437c5fb569b38e9672d4567c5f5dc8f4b4b56c27b8f702706ac7a06e2dbb",
+    "bytes": 293
+  },
+  "tools/verify_artifacts.py": {
+    "sha256": "26d30a9d5927bd9bb0f7ed355d03a9b11f87d45dcccdb5624c7d887944e87421",
+    "bytes": 12525
+  },
+  "training/ORIGINAL_TRAINING_LOG_STATUS.md": {
+    "sha256": "c633a2b706bd4739b030eb7286df7dcc0b5238abf8413f7b3a4667a0064f2b4c",
+    "bytes": 118
+  }
+}

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the experimental data, cite this release.
+title: "BlindVision software and experimental data release"
+type: software
+abstract: >-
+  BlindVision is a dual-device assistive-navigation system comprising Smart
+  Goggles software, Smart Stick firmware, sensor-fusion components, and
+  experimental data and derived result tables supplied for the project.
+authors:
+  - given-names: "Alishba"
+    family-names: "Fatima"
+license: MIT
+repository-code: "https://github.com/makfatima/BlindVision"
+version: "0.2.1--10class"
+date-released: "2026-08-12"
+keywords:
+  - assistive technology
+  - sensor fusion
+  - obstacle detection
+  - wearable sensors
+  - reproducibility
+notes: >-
+  The data directory contains experimental data and derived result tables
+  supplied for the BlindVision project. These files are retained as supplied.
+  Lower-level source artifacts that are not present in this release are not
+  represented as included.

@@ -1,0 +1,11 @@
+tier,identifier,trigger_condition,output_priority
+1,EMERGENCY_SOS,stick_data.sos_pressed == True,CRITICAL OVERRIDE
+2,CRITICAL_DROPOFF,stick_data.down_distance > 0.50m,CRITICAL OVERRIDE
+3,CRITICAL_OBSTACLE,stick_dist < 0.5m OR (high_risk_class AND <=2.0m),CRITICAL HIGH
+4,WATER_HAZARD,stick_data.water_detected == True,HIGH
+5,FALL_ALERT,stick_data.fall_detected == True,HIGH
+6,HIGH_RISK_FUSED,Fused Risk Score R >= 0.75,HIGH
+7,MEDIUM,min(nearest_stick_dist, nearest_vision_dist)<1.2m,MEDIUM
+8,LOW,min(nearest_stick_dist, nearest_vision_dist)<2.0m,LOW
+9,LOW_BATTERY,stick_data.battery_pct < 20%,ADVISORY
+10,ROUTINE,Default / Clear path,SILENT

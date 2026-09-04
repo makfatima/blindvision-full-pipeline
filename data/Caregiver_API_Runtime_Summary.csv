@@ -1,0 +1,10 @@
+field,value
+route,POST /api/v1/events
+transport,Plain HTTP in local backend; TLS termination requires an external reverse proxy
+authentication,None enforced by the released endpoint
+response_code,200 OK
+event_type,EMERGENCY_SOS
+trigger_source,manual_pushbutton
+stick_battery_pct,85
+nearest_obstacle_m,1.80
+anonymized_telemetry,true

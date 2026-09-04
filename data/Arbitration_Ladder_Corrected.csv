@@ -1,0 +1,11 @@
+Tier,Name,Condition,Severity,Status
+1,SOS,stick.sos_pressed,EMERGENCY,corrected release
+2,CRITICAL_DROPOFF,drop-off signature,EMERGENCY,corrected release
+3,CRITICAL_OBSTACLE,stick distance <0.5 m OR high-risk visual class <=2.0 m,EMERGENCY,corrected release
+4,WATER_HAZARD,stick.water_detected,HIGH,corrected release
+5,FALL_ALERT,stick.fall_detected,HIGH,corrected release
+6,HIGH_RISK_FUSED,R >= 0.60,HIGH,post-audit correction; not used to score pre-correction navigation trials
+7,MEDIUM,min distance <1.2 m,MEDIUM,corrected release
+8,LOW,min distance <2.0 m,LOW,corrected release
+9,LOW_BATTERY,stick battery <20%,CAUTION,corrected release
+10,ROUTINE,otherwise,ROUTINE,corrected release

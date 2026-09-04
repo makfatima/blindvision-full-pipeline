@@ -1,0 +1,23 @@
+Artifact category,file,Status
+Dataset composition,Dataset_Manifest_.csv,Reported dataset composition
+Class definitions,Class_Definition.csv,Reported ten-class configuration
+Training/evaluation summary,Training_Epoch_Log_.csv,Recorded summary checkpoints
+Held-out detection results,Heldout_Test.csv,Reported 700-image held-out results
+Classwise detection results,Classwise_Evaluation.csv,Reported classwise results
+Per-tester navigation summary,raw/participant_trials_breakdown.csv,Seven-tester breakdown of the 100-trial aggregate: 100 trials / 96 successful (not a disability-status breakdown; see raw/README.md)
+Per-tester trial outcomes,raw/participant_trial_outcomes_100.csv,Trial-level outcome record for the same seven-tester pool
+Full-system aggregate,Trial_Session__Summary.csv,20 sessions / 100 navigation trials
+BLE results,BLE_Trace__Summary.csv,Reported 8000-packet aggregate
+Power measurements,Power_Log.csv,Power-meter measurements
+Fusion/arbitration,Arbitration_Ladder_Supplied.csv,Reported arbitration configuration
+Caregiver runtime,Caregiver_API_Runtime_Summary.csv,Reported caregiver event path
+Confusion aggregate,Confusion_Event_Summary_.csv,Aggregate result summary only
+Raw ultrasonic calibration,raw/Ultrasonic_Calibration_Raw.csv,Author-supplied 80-row five-transducer calibration record (40–300 cm; two trials per distance)
+Raw calibrated ultrasonic record,raw/Ultrasonic_Calibration_With_Correction_Raw.csv,Same 80 calibration observations with recomputed inverse correction and residuals
+Raw incidence-angle sweep,raw/Ultrasonic_Angle_Sweep_Raw.csv,Five sensors at nine angles from -60 to +60 degrees at 100 cm
+Raw material sweep,raw/Ultrasonic_Material_Raw.csv,Five sensors × four target materials × five trials at 100 cm
+Raw cross-talk check,raw/Ultrasonic_Crosstalk_Raw.csv,Five simultaneous-firing observations at 100 cm
+Fusion sensitivity inputs,raw/Fusion_Weight_Sensitivity_10cases.csv,Ten recorded cases used for one-at-a-time ±20% sensitivity check
+Fusion sensitivity summary,raw/Fusion_Weight_Sensitivity_Summary.csv,Nine configurations including baseline
+Paired subsystem ablation,raw/Paired_Subsystem_Ablation_Raw.csv,Four paired navigation trials across Full/No-Vision/No-Ultrasonic/No-Fusion
+Smart Stick discharge,raw/Smart_Stick_Continuous_Discharge_Raw.csv,Single 240-minute continuous discharge record to cutoff

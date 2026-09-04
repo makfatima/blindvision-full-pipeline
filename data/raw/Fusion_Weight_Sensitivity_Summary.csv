@@ -1,0 +1,10 @@
+configuration,perturbation,all_10_baseline_tier_decisions_preserved,changed_decisions,notes
+baseline,baseline,1,0,Reference configuration; unchanged by definition
+C +20%,C +20%,0,1,One decision changed; same near-threshold case
+C -20%,C -20%,1,0,
+P +20%,P +20%,1,0,
+P -20%,P -20%,0,1,One decision changed; same near-threshold case
+U +20%,U +20%,1,0,
+U -20%,U -20%,1,0,
+W +20%,W +20%,1,0,
+W -20%,W -20%,1,0,

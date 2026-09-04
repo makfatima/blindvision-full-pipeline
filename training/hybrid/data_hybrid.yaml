@@ -1,0 +1,32 @@
+# Hybrid training config.
+#
+# path/train/val below assume you've merged:
+#   data/coco_subset/        <- from prepare_coco_subset.py (7 classes)
+#   data/supplementary/      <- door/pole/stairs images+labels you source
+#                                per CLASS_SOURCE_MAP.md, already remapped to
+#                                the class ids below
+# into one combined images/train, images/val, labels/train, labels/val tree
+# (a plain merge — same folder names, just copy both sets in).
+#
+# If you're doing the 7-class-only run first, remove classes 1/6/9 from
+# `names` and re-run prepare_coco_subset.py output directly — YOLO doesn't
+# require your ids to be contiguous, but keeping IDs 1/6/9 reserved (rather
+# than renumbering) means labels stay compatible if you add door/pole/stairs
+# later without relabeling everything.
+
+path: ../../data/hybrid_dataset
+train: images/train
+val: images/val
+
+nc: 10
+names:
+  0: person
+  1: door        # requires Open Images subset — see CLASS_SOURCE_MAP.md
+  2: chair
+  3: backpack
+  4: laptop
+  5: bottle
+  6: pole        # requires supplementary source — see CLASS_SOURCE_MAP.md
+  7: vehicle
+  8: bicycle
+  9: stairs      # requires supplementary source — see CLASS_SOURCE_MAP.md

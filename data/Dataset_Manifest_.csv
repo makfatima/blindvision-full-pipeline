@@ -1,0 +1,9 @@
+Field,Value,Status
+Train images,5600, aggregate only
+Validation images,700, aggregate only
+Held-out test images,700, aggregate only
+Held-out annotated objects,842, aggregate only
+Object classes,10, class list
+Image files,Not supplied,not recoverable from manuscript/ audit set
+YOLO label files,Not supplied,not recoverable from manuscript/ audit set
+Note,This manifest represents dataset composition only; it does not create or claim original image/label files,
