@@ -35,8 +35,57 @@ instead of restarting from epoch 0 (this continues from last.pt with the
 same optimizer state, not just re-initializing from the base checkpoint):
 
     python train_hybrid.py --resume /content/drive/MyDrive/blindvision_runs/blindvision_hybrid/weights/last.pt
+
+AUTOMATIC GITHUB CHECKPOINTING (works on Kaggle too, no manual "Save Version"
+needed): pass --checkpoint-repo/--checkpoint-token/--checkpoint-every to push
+weights/last.pt, args.yaml, and results.csv to a GitHub repo every N epochs,
+on top of whatever --project already saves locally:
+
+    python train_hybrid.py --data data_hybrid.yaml --epochs 80 \
+        --project /kaggle/working/runs --name blindvision_hybrid \
+        --checkpoint-repo makfatima/blindvision-checkpoints \
+        --checkpoint-token ghp_xxx --checkpoint-every 10
+
+The target repo must already exist (create it empty on GitHub first). Each
+push overwrites the same file paths in that repo, so it's always just the
+latest checkpoint, not a growing history.
 """
 import argparse
+import os
+import shutil
+import subprocess
+
+
+def push_checkpoint(save_dir, repo, token, tag=""):
+    """Copy weights/last.pt + args.yaml + results.csv from save_dir into a
+    freshly-cloned copy of `repo` and push. Best-effort: prints and returns
+    on any failure rather than crashing the training run."""
+    try:
+        workdir = "/tmp/_checkpoint_push"
+        shutil.rmtree(workdir, ignore_errors=True)
+        subprocess.run(
+            ["git", "clone", "--depth", "1", f"https://{token}@github.com/{repo}.git", workdir],
+            check=True, capture_output=True, text=True,
+        )
+        for fname in ("weights/last.pt", "args.yaml", "results.csv"):
+            src = os.path.join(save_dir, fname)
+            if os.path.exists(src):
+                dst = os.path.join(workdir, os.path.basename(fname))
+                shutil.copy2(src, dst)
+        subprocess.run(["git", "-C", workdir, "add", "-A"], check=True)
+        subprocess.run(
+            ["git", "-C", workdir, "-c", "user.email=checkpoint@bot.local",
+             "-c", "user.name=checkpoint-bot", "commit", "-m", f"checkpoint{tag}"],
+            check=False, capture_output=True, text=True,  # ok if nothing changed
+        )
+        subprocess.run(
+            ["git", "-C", workdir, "push", f"https://{token}@github.com/{repo}.git", "HEAD:main"],
+            check=True, capture_output=True, text=True,
+        )
+        print(f"[checkpoint] pushed to {repo}{tag}")
+    except Exception as e:
+        print(f"[checkpoint] push failed (continuing training): {e}")
+
 
 from ultralytics import YOLO
 
@@ -53,13 +102,26 @@ def main():
     ap.add_argument("--name", default="blindvision_hybrid")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--resume", default=None, help="path to a last.pt to resume an interrupted run from")
+    ap.add_argument("--checkpoint-repo", default=None, help="owner/repo to push periodic checkpoints to")
+    ap.add_argument("--checkpoint-token", default=None, help="GitHub token with repo scope for checkpoint pushes")
+    ap.add_argument("--checkpoint-every", type=int, default=10, help="push a checkpoint every N epochs")
     args = ap.parse_args()
 
     if args.resume:
         model = YOLO(args.resume)
-        model.train(resume=True)
     else:
         model = YOLO(args.weights)
+
+    if args.checkpoint_repo and args.checkpoint_token:
+        def on_epoch_end(trainer):
+            ep = trainer.epoch + 1
+            if ep % args.checkpoint_every == 0:
+                push_checkpoint(str(trainer.save_dir), args.checkpoint_repo, args.checkpoint_token, tag=f" (epoch {ep})")
+        model.add_callback("on_fit_epoch_end", on_epoch_end)
+
+    if args.resume:
+        model.train(resume=True)
+    else:
         model.train(
             data=args.data,
             epochs=args.epochs,
@@ -71,6 +133,11 @@ def main():
             name=args.name,
             exist_ok=False,
         )
+
+    # final push regardless of --checkpoint-every, so the finished run is captured too
+    if args.checkpoint_repo and args.checkpoint_token:
+        push_checkpoint(str(model.trainer.save_dir), args.checkpoint_repo, args.checkpoint_token, tag=" (final)")
+
     metrics = model.val()
     print("Validation metrics:", metrics.results_dict)
 
