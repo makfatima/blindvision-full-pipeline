@@ -49,9 +49,19 @@ on top of whatever --project already saves locally:
 The target repo must already exist (create it empty on GitHub first). Each
 push overwrites the same file paths in that repo, so it's always just the
 latest checkpoint, not a growing history.
+
+DATASET PATH: data_hybrid.yaml's `path:` is a relative path that only
+resolves correctly if the dataset happens to sit at that exact relative
+location, which it usually won't on a fresh clone (the dataset now lives in
+a separate repo, e.g. blindvision-dataset-10class). Pass --dataset-root to
+have this script rewrite the yaml's path automatically before training or
+validating, instead of hand-editing the yaml every session:
+
+    python train_hybrid.py --data data_hybrid.yaml --dataset-root /kaggle/working/BlindVision_data ...
 """
 import argparse
 import os
+import re
 import shutil
 import subprocess
 
@@ -105,7 +115,14 @@ def main():
     ap.add_argument("--checkpoint-repo", default=None, help="owner/repo to push periodic checkpoints to")
     ap.add_argument("--checkpoint-token", default=None, help="GitHub token with repo scope for checkpoint pushes")
     ap.add_argument("--checkpoint-every", type=int, default=10, help="push a checkpoint every N epochs")
+    ap.add_argument("--dataset-root", default=None, help="absolute path to the dataset folder (images/labels); rewrites --data's yaml path: line automatically")
     args = ap.parse_args()
+
+    if args.dataset_root:
+        content = open(args.data).read()
+        content = re.sub(r"path:.*", f"path: {args.dataset_root}", content)
+        open(args.data, "w").write(content)
+        print(f"[dataset-root] rewrote {args.data} path: -> {args.dataset_root}")
 
     if args.resume:
         model = YOLO(args.resume)
@@ -138,7 +155,7 @@ def main():
     if args.checkpoint_repo and args.checkpoint_token:
         push_checkpoint(str(model.trainer.save_dir), args.checkpoint_repo, args.checkpoint_token, tag=" (final)")
 
-    metrics = model.val()
+    metrics = model.val(data=args.data)
     print("Validation metrics:", metrics.results_dict)
 
 
